@@ -1,2 +1,22 @@
+.holder {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  background-color: #f0f0f0; /* Optional background for visibility */
+}
 
-/* Your CSS Code here. */
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 8px;
+}
